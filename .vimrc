@@ -9,7 +9,7 @@ Plug 'ericcurtin/CurtineIncSw.vim'
 
 Plug 'https://github.com/pangloss/vim-javascript.git'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'xavierd/clang_complete'
 Plug 'preservim/nerdtree'
 Plug 'KabbAmine/vCoolor.vim'	
@@ -63,10 +63,10 @@ let g:vcoolor_map = '<NEW_MAPPING>'
 
 nnoremap <c-k> :VCoolor<CR>
 
-inoremap <silent><expr> <TAB>
-                        \ pumvisible() ? "\<C-n>" :
-                        \ <SID>check_back_space() ? "\<TAB>" :
-                        \ coc#refresh()
+"#inoremap <silent><expr> <TAB>
+"#\ pumvisible() ? "\<C-n>" :
+"#\ <SID>check_back_space() ? "\<TAB>" :
+"# \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort

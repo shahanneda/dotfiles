@@ -153,3 +153,4 @@ alias '$'=" "
 #enable vim mode
 #
 bindkey -v
+export GPG_TTY=$(tty)
