@@ -76,6 +76,9 @@ plugins=(
   zsh-autosuggestions
 )
 
+#cd $ZSH_CUSTOM/plugins
+#git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+
 
 source $ZSH/oh-my-zsh.sh
 
