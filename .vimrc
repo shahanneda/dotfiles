@@ -7,9 +7,6 @@ Plug 'lervag/vimtex'
 Plug 'easymotion/vim-easymotion'
 Plug 'ericcurtin/CurtineIncSw.vim'
 
-Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
-
 Plug 'https://github.com/pangloss/vim-javascript.git'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -22,8 +19,6 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'https://github.com/valloric/MatchTagAlways.git'
 Plug 'mattn/emmet-vim'
 Plug 'tomtom/tcomment_vim'
-Plug 'patstockwell/vim-monokai-tasty'
-
 
 Plug 'https://github.com/ap/vim-css-color.git' 
 
@@ -37,8 +32,7 @@ call plug#end()
 
 "set termguicolors
 "let ayucolor="dark"
-"colorscheme dracula
-colorscheme vim-monokai-tasty
+colorscheme dracula
 " this is for seting the temp file director so it doesnt show all the other
 "
 " stuff
