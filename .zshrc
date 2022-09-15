@@ -73,7 +73,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-autosuggestions
+  zsh-autocomplete
 )
 
 #cd $ZSH_CUSTOM/plugins
@@ -108,20 +108,33 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias pj="cd /Users/shahan/Documents/Projects"
 
+scpw() {
+  local FOLDER="snedadah@linux.student.cs.uwaterloo.ca:~/cs246e/1229/"
+  if [ $# -lt 1 ]
+  then
+    echo "Usage: $funcstack[1] <folder>"
+    return
+  fi
+
+  scp -v ./* $FOLDER$1
+}
+
+alias srcz="source ~/.zshrc"
+alias pj="cd /Users/shahan/Documents/Projects"
 alias nrd="npm run dev"
 alias wat="cd \"/Users/shahan/Documents/Waterloo\""
+alias f22="cd \"/Users/shahan/Documents/Waterloo/Fall2022\""
 alias watc="cd /Users/shahan/Documents/Waterloo/CS146"
 alias watm="cd \"/Users/shahan/Documents/Waterloo/Math 145\""
 alias watm7="cd \"/Users/shahan/Documents/Waterloo/Math 147\""
+alias cs6="cd \"/Users/shahan/Documents/Waterloo/Fall2022/CS246E\""
 alias sshwm="ssh snedadah@linux.student.math.uwaterloo.ca"
 alias sshw="ssh snedadah@linux.student.cs.uwaterloo.ca"
 alias watcs="cd /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions"
 alias lc="cd /Users/shahan/Documents/Projects/leetcode"
 alias tst="/Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/tester.sh"
 
-alias watscp="scp -r /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/C7 snedadah@linux.student.cs.uwaterloo.ca:~/cs146/c7/"
 
 alias scpwc9="scp /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/C9/C9.c snedadah@linux.student.cs.uwaterloo.ca:~/cs146/C9/C9.c"
 
@@ -132,6 +145,9 @@ alias scpwm2="scp -r snedadah@linux.student.cs.uwaterloo.ca:/u/cs146/pub /Users/
 alias scpwc12="scp /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/C12/C12.c snedadah@linux.student.cs.uwaterloo.ca:~/cs146/C12/C12.c && scp /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/C12/C12.h snedadah@linux.student.cs.uwaterloo.ca:~/cs146/C12/C12.h" 
 
 alias sshcsc="ssh snedadah@hfcs.csclub.uwaterloo.ca"
+alias sshcsc2="ssh snedadah@caffeine.csclub.uwaterloo.ca"
+
+alias grc="git rebase --continue"
 
 # compc(){
 #     if [ "$1" != "" ] # or better, if [ -n "$1" ]
@@ -154,3 +170,12 @@ alias '$'=" "
 #
 bindkey -v
 export GPG_TTY=$(tty)
+source "/Users/shahan/Documents/Projects/emsdk/emsdk_env.sh"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+export PATH="${HOME}/.pyenv/shims:${PATH}"
+
+
