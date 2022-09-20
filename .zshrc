@@ -134,7 +134,7 @@ alias sshw="ssh snedadah@linux.student.cs.uwaterloo.ca"
 alias watcs="cd /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions"
 alias lc="cd /Users/shahan/Documents/Projects/leetcode"
 alias tst="/Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/tester.sh"
-
+alias g++14="g++ -std=c++14 -Wall -g"
 
 alias scpwc9="scp /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/C9/C9.c snedadah@linux.student.cs.uwaterloo.ca:~/cs146/C9/C9.c"
 
@@ -178,4 +178,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 
+# adds a new line to the unde
+precmd() { print "" }
 
+eval $(thefuck --alias)
