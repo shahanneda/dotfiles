@@ -11,6 +11,12 @@ export ZSH="/Users/shahan/.oh-my-zsh"
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
 
+customize_agnoster() {
+  prompt_segment 'red' '' ' ⚙ ⚡⚡⚡ ⚙  '
+}
+
+
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -131,6 +137,7 @@ alias watm7="cd \"/Users/shahan/Documents/Waterloo/Math 147\""
 alias cs6="cd \"/Users/shahan/Documents/Waterloo/Fall2022/CS246E\""
 alias sshwm="ssh snedadah@linux.student.math.uwaterloo.ca"
 alias sshw="ssh snedadah@linux.student.cs.uwaterloo.ca"
+alias sshwato="ssh -J snedadah@bastion.watonomous.ca snedadah@delta-ubuntu1.watocluster.local"
 alias watcs="cd /Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions"
 alias lc="cd /Users/shahan/Documents/Projects/leetcode"
 alias tst="/Users/shahan/Documents/Waterloo/CS146/Assignment/Solutions/C/tester.sh"
@@ -178,7 +185,11 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 export PATH="${HOME}/.pyenv/shims:${PATH}"
 
+# precmd() { print ">" }
+# export PROMPT=""
 # adds a new line to the unde
-precmd() { print "" }
+# precmd() { print "\n" }
+
 
 eval $(thefuck --alias)
+# /Users/shahan/.oh-my-zsh/themes/agnoster.zsh-theme
