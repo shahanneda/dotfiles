@@ -193,3 +193,4 @@ export PATH="${HOME}/.pyenv/shims:${PATH}"
 
 eval $(thefuck --alias)
 # /Users/shahan/.oh-my-zsh/themes/agnoster.zsh-theme
+alias python="python3"
