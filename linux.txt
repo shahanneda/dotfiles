@@ -10,6 +10,7 @@ https://github.com/vinceliuice/WhiteSur-cursors
 https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 https://docs.docker.com/engine/install/fedora/#set-up-the-repository
 
+https://linrunner.de/tlp/installation/fedora.html
 #### Programs
 
 ```
