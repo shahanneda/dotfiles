@@ -1,0 +1,26 @@
+
+
+https://extensions.gnome.org/extension/3193/blur-my-shell/
+https://extensions.gnome.org/extension/307/dash-to-dock/
+https://extensions.gnome.org/extension/19/user-themes/
+https://github.com/vinceliuice/WhiteSur-gtk-theme
+https://github.com/vinceliuice/WhiteSur-cursors
+
+
+https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+https://docs.docker.com/engine/install/fedora/#set-up-the-repository
+
+#### Programs
+
+```
+sudo dnf install konsole
+sudo dnf install fish
+chsh fish
+
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+nvm install latest
+nvm use latest
+
+
+```
