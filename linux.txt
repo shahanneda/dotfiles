@@ -1,5 +1,6 @@
 
 
+Gnome Extensions:
 https://extensions.gnome.org/extension/3193/blur-my-shell/
 https://extensions.gnome.org/extension/307/dash-to-dock/
 https://extensions.gnome.org/extension/19/user-themes/
@@ -7,13 +8,23 @@ https://github.com/vinceliuice/WhiteSur-gtk-theme
 https://github.com/vinceliuice/WhiteSur-cursors
 
 
+VSCODE:
 https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+
+Docker:
 https://docs.docker.com/engine/install/fedora/#set-up-the-repository
 
+TLP:
 https://linrunner.de/tlp/installation/fedora.html
+
+Latex:
+https://docs.fedoraproject.org/en-US/neurofedora/latex/
+
+
+Nvidia drivers:
+https://rpmfusion.org/Howto/NVIDIA#Installing_the_drivers
+
+
 #### Programs
+Moved to setup.sh
 
-```
-
-
-```

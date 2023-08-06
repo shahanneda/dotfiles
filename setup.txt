@@ -1,5 +1,5 @@
 
-
+### ZSH
 https://github.com/ohmyzsh/ohmyzsh
 
 Manually install plugins in "~/.zshrc" by running the git clone commands
@@ -14,20 +14,22 @@ https://docs.github.com/en/authentication/managing-commit-signature-verification
 https://stackoverflow.com/questions/36847431/remember-gpg-password-when-signing-git-commits
 
 
-### Vim For plug:
+### Vim:
+Install Plug:
+```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-#// have to run tmux, then Cntrl+B :source-file ~/.tmux.conf
-# To setup vim:
-# Install Plug
-#
-#   Run :PlugInstall in vim
-#
-#
-# To setup fish:
-# $ brew install fish ​
-# $ fish
-# $ fish_add_path /opt/homebrew/bin
-# $ echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
-# $ chsh -s /opt/homebrew/bin/fish
+```
+Run :PlugInstall in vim
 
-#
+### Tmux
+Run un tmux, then Cntrl+B :source-file ~/.tmux.conf
+
+
+### Fish (macos)
+To setup fish:
+$ brew install fish
+$ fish
+$ fish_add_path /opt/homebrew/bin
+$ echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
+$ chsh -s /opt/homebrew/bin/fish
+

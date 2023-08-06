@@ -5,3 +5,4 @@ mkdir ~/vimtemp/
 chmod 777 ~/vimtemp//
 rm /home/shahanneda/.config/fish/config.fish
 ln -s -f ~/dotfiles/config.fish ~/.config/fish/config.fish
+ln -s -f ~/dotfiles/ssh.config ~/.ssh/config
