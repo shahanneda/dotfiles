@@ -146,6 +146,11 @@ nnoremap j gj
 nnoremap k gk
 " esc in command mode
 cnoremap kj <C-C>
+
+
+" Allows saving a sudo file without sudo
+cmap w!! w !sudo tee > /dev/null % 
+
 " Note: In command mode mappings to esc run the command for some odd
 " historical vi compatibility reason. We use the alternate method of
 " existing which is Ctrl-C
@@ -165,3 +170,4 @@ endif
 set backupdir=~/vimtemp//
 set directory=~/vimtemp//
 set undodir=~/vimtemp//
+
