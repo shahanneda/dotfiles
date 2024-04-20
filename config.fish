@@ -9,9 +9,15 @@ alias cs484 "cd ~/Documents/classes/F23/CS484"
 alias ovac "cd ~/Documents/Vault/ && git add --all && git commit -m \"Notes\" && git push"
 alias fishconf "vim ~/dotfiles/config.fish"
 alias gs "cd ~/Documents/projects/Gaussian-Splatting-WebGL/"
+alias gsr "cd ~/Documents/projects/gs-rust"
+alias ch "/opt/google/chrome/google-chrome --js-flags=\"--stack-trace-limit 10000\""
 
 fish_vi_key_bindings
 fish_add_path ~/.local/bin
+fish_add_path ~/.cargo/bin
+alias vim "nvim"
+
+python ~/Documents/projects/cloner/check_last_sync.py
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/shahanneda/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/home/shahanneda/Downloads/google-cloud-sdk/path.fish.inc'; end
