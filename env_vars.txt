@@ -1,0 +1,7 @@
+pj=~/Documents/projects
+c=~/Documents/classes
+f23=~/Documents/classes/F23
+cs484=~/Documents/classes/F23/CS484
+gs=~/Documents/projects/Gaussian-Splatting-WebGL/
+gsr=~/Documents/projects/gs-rust
+book=~/Documents/classes/Bookkeeping

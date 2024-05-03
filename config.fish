@@ -1,22 +1,25 @@
+# Setup env vars
+for line in (cat ~/dotfiles/env_vars.txt)
+    set var (echo $line | cut -d= -f1)
+    set value (echo $line | cut -d= -f2)
+    set -gx $var (eval echo $value)
+end
+
+
 # nvm use latest
 alias gac "git add --all && git commit"
 alias grc "git add --all && git rebase --continue"
 alias nrd "npm run dev"
-alias pj "cd ~/Documents/projects"
-alias school "~/Documents/classes"
-alias f23 "cd ~/Documents/classes/F23"
-alias cs484 "cd ~/Documents/classes/F23/CS484"
 alias ovac "cd ~/Documents/Vault/ && git add --all && git commit -m \"Notes\" && git push"
 alias fishconf "vim ~/dotfiles/config.fish"
-alias gs "cd ~/Documents/projects/Gaussian-Splatting-WebGL/"
-alias gsr "cd ~/Documents/projects/gs-rust"
 alias ch "/opt/google/chrome/google-chrome --js-flags=\"--stack-trace-limit 10000\""
-alias book "cd ~/Documents/classes/Bookkeeping"
+
+
 
 fish_vi_key_bindings
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
-alias vim "nvim"
+#alias vim "nvim"
 
 python ~/Documents/projects/cloner/check_last_sync.py
 
