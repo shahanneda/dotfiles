@@ -11,6 +11,7 @@ alias fishconf "vim ~/dotfiles/config.fish"
 alias gs "cd ~/Documents/projects/Gaussian-Splatting-WebGL/"
 alias gsr "cd ~/Documents/projects/gs-rust"
 alias ch "/opt/google/chrome/google-chrome --js-flags=\"--stack-trace-limit 10000\""
+alias book "cd ~/Documents/classes/Bookkeeping"
 
 fish_vi_key_bindings
 fish_add_path ~/.local/bin
