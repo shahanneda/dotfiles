@@ -5,3 +5,4 @@ cs484=~/Documents/classes/F23/CS484
 gs=~/Documents/projects/Gaussian-Splatting-WebGL/
 gsr=~/Documents/projects/gs-rust
 book=~/Documents/classes/Bookkeeping
+vault=~/Documents/Vault
