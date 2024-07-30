@@ -39,3 +39,4 @@ else
 end
 # <<< conda initialize <<<
 
+fish_add_path /home/shahanneda/.pixi/bin
