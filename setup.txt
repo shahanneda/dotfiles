@@ -36,3 +36,13 @@ chsh -s /opt/homebrew/bin/fish
 ### Resolve
 https://www.blackmagicdesign.com/products/davinciresolve
 
+
+### Python (pyenv)
+https://github.com/pyenv/pyenv?tab=readme-ov-file#set-up-your-shell-environment-for-pyenv
+brew update
+brew install pyenv
+
+set -Ux PYENV_ROOT $HOME/.pyenv
+fish_add_path $PYENV_ROOT/bin
+pyenv init - | source >> ~/dotfiles/config.fish
+
