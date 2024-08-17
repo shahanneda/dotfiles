@@ -4,4 +4,3 @@
 
 # Key repeat (have to log out and log back in)
 defaults write -g ApplePressAndHoldEnabled -bool false
-
