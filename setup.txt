@@ -49,3 +49,7 @@ brew install pyenv
 set -Ux PYENV_ROOT $HOME/.pyenv
 fish_add_path $PYENV_ROOT/bin
 pyenv init - | sourcepyenv init - | source >> ~/dotfiles/config.fish
+
+### Syncer:
+Get rclone config file from previous rclone location.
+Run `setup.sh` script in rclone setup directory

@@ -13,3 +13,5 @@ git clone git@github.com:shahanneda/Vault.git
 cd ~/Documents/projects
 git clone git@github.com:shahanneda/syncer.git
 
+git config pull.rebase false --global
+

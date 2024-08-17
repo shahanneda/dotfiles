@@ -42,3 +42,5 @@ end
 fish_add_path /home/shahanneda/.pixi/bin
 
 fish_prompt Astronaut
+
+pyenv init - | source
