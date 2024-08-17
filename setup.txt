@@ -33,6 +33,10 @@ fish_add_path /opt/homebrew/bin
 echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 
+
+#### Interactive fish
+fish_config
+
 ### Resolve
 https://www.blackmagicdesign.com/products/davinciresolve
 
@@ -44,5 +48,4 @@ brew install pyenv
 
 set -Ux PYENV_ROOT $HOME/.pyenv
 fish_add_path $PYENV_ROOT/bin
-pyenv init - | source >> ~/dotfiles/config.fish
-
+pyenv init - | sourcepyenv init - | source >> ~/dotfiles/config.fish
