@@ -1,3 +1,6 @@
+
+
+
 # Setup env vars
 for line in (cat ~/dotfiles/env_vars.txt)
     set var (echo $line | cut -d= -f1)
@@ -21,6 +24,11 @@ fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
 #alias vim "nvim"
 
+
+# Check if a person is on macos:
+if test (uname) = "Darwin"
+    pyenv init - | source
+end
 python ~/Documents/projects/syncer/check_last_sync.py
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -43,4 +51,3 @@ fish_add_path /home/shahanneda/.pixi/bin
 
 fish_prompt Astronaut
 
-pyenv init - | source
