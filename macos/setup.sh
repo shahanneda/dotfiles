@@ -4,3 +4,6 @@
 
 # Key repeat (have to log out and log back in)
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Setup showing hidden files in finder
+defaults write com.apple.finder AppleShowAllFiles YES
