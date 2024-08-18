@@ -29,8 +29,7 @@ fish_add_path ~/.cargo/bin
 if test (uname) = "Darwin"
     pyenv init - | source
 end
-set test 
-python realpath ~/Documents/projects/syncer/check_last_sync.py
+python $HOME/Documents/projects/syncer/check_last_sync.py
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/shahanneda/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/home/shahanneda/Downloads/google-cloud-sdk/path.fish.inc'; end
