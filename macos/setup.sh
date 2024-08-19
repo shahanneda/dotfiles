@@ -6,4 +6,9 @@
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Setup showing hidden files in finder
+
 defaults write com.apple.finder AppleShowAllFiles YES
+
+
+# Install Latex:
+brew install basictex
