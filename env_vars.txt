@@ -6,3 +6,4 @@ gs=~/Documents/projects/Gaussian-Splatting-WebGL/
 gsr=~/Documents/projects/gs-rust
 book=~/Documents/classes/Bookkeeping
 vault=~/Documents/Vault
+fck=~/Documents/projects/feeding-canadian-kids
