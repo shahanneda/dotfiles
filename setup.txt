@@ -53,3 +53,8 @@ pyenv init - | sourcepyenv init - | source >> ~/dotfiles/config.fish
 ### Syncer:
 Get rclone config file from previous rclone location.
 Run `setup.sh` script in rclone setup directory
+
+## Go Links:
+Clone the following repo in $pj
+https://github.com/alecj1240/go-links
+Then load unpacked
