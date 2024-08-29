@@ -36,13 +36,13 @@ if [ -f '/home/shahanneda/Downloads/google-cloud-sdk/path.fish.inc' ]; . '/home/
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f /home/shahanneda/miniconda3/bin/conda
-    eval /home/shahanneda/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f /opt/homebrew/Caskroom/miniforge/base/bin/conda
+    eval /opt/homebrew/Caskroom/miniforge/base/bin/conda "shell.fish" "hook" $argv | source
 else
-    if test -f "/home/shahanneda/miniconda3/etc/fish/conf.d/conda.fish"
-        . "/home/shahanneda/miniconda3/etc/fish/conf.d/conda.fish"
+    if test -f "/opt/homebrew/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
+        . "/opt/homebrew/Caskroom/miniforge/base/etc/fish/conf.d/conda.fish"
     else
-        set -x PATH "/home/shahanneda/miniconda3/bin" $PATH
+        set -x PATH "/opt/homebrew/Caskroom/miniforge/base/bin" $PATH
     end
 end
 # <<< conda initialize <<<
