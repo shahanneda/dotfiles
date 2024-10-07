@@ -22,13 +22,24 @@ alias ch "/opt/google/chrome/google-chrome --js-flags=\"--stack-trace-limit 1000
 fish_vi_key_bindings
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
+fish_add_path ~/Documents/classes/F24/cs451/hadoop-3.0.3/bin
+fish_add_path ~/Documents/classes/F24/cs451/spark-2.3.1-bin-without-hadoop/bin
+fish_add_path "/Users/shahanneda/Library/Application Support/Coursier/bin"
+
+function set_java_home
+    set -x JAVA_HOME (/usr/libexec/java_home -v $argv)
+end
+set_java_home 1.8
+
+
 #alias vim "nvim"
 
 
-# Check if a person is on macos:
-if test (uname) = "Darwin"
-    pyenv init - | source
-end
+
+# # Check if a person is on macos:
+# if test (uname) = "Darwin"
+#     pyenv init - | source
+# end
 python $HOME/Documents/projects/syncer/check_last_sync.py
 
 # The next line updates PATH for the Google Cloud SDK.
@@ -51,3 +62,6 @@ fish_add_path /home/shahanneda/.pixi/bin
 
 fish_prompt Astronaut
 
+set -x PATH $HOME/.jenv/bin $PATH
+status --is-interactive; and source (jenv init -|psub)
+fish_add_path /Users/shahanneda/.pixi/bin

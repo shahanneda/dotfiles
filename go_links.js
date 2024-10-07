@@ -12,5 +12,13 @@ export const DEFAULT_GO_LINKS = {
     "dotfiles": "https://github.com/shahanneda/dotfiles",
     "fck": "https://github.com/uwblueprint/feeding-canadian-kids",
     "fcktodo": "https://www.notion.so/uwblueprintexecs/What-s-Left-a7eff292cb1f438d85762285c02e50c0",
-    "llm": "https://claude.ai/new"
+    "p": "https://www.perplexity.ai/",
+    "llm": "https://www.perplexity.ai/",
+    "llm2": "https://claude.ai/new",
+    "llm3": "https://x.com/i/grok",
+    "llm3": "https://chatgpt.com/",
+    "llm4": "https://platform.openai.com/playground/chat",
+    "451" : "https://student.cs.uwaterloo.ca/~cs451/assignments-451.html",
+    "488" : "https://student.cs.uwaterloo.ca/~cs488/Fall2024/assignments.html",
+    "ghe" : "https://github.com/shahanneda",
   };
