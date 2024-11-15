@@ -12,3 +12,4 @@ defaults write com.apple.finder AppleShowAllFiles YES
 
 # Install Latex:
 brew install basictex
+brew install fzf

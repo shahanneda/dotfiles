@@ -14,4 +14,7 @@ cd ~/Documents/projects
 git clone git@github.com:shahanneda/syncer.git
 
 git config pull.rebase false --global
+cargo install fd
+
+
 
