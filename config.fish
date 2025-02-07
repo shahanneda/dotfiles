@@ -38,6 +38,8 @@ fish_vi_key_bindings
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
 fish_add_path "/Users/shahanneda/Library/Application Support/Coursier/bin"
+fish_add_path ~/.orbstack/bin
+
 
 set -gx SPARK_HOME ~/Documents/classes/F24/cs451/spark-2.3.1-bin-hadoop2.6
 set -gx HADOOP_HOME ~/Documents/classes/F24/cs451/hadoop-3.0.3
