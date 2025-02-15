@@ -104,3 +104,6 @@ else
 end
 # <<< conda initialize <<<
 
+
+# Added by Windsurf
+fish_add_path /Users/shahanneda/.codeium/windsurf/bin
