@@ -31,6 +31,7 @@ alias fishconf "vim ~/dotfiles/config.fish"
 alias ch "/opt/google/chrome/google-chrome --js-flags=\"--stack-trace-limit 10000\""
 alias cdd 'cd $(find --type directory | fzf || echo .)' # The "|| echo ." makes it so if we cancel the fzf command, we don't change to a diff directory
 alias rg "rg --color=always"
+alias c "clear"
 
 
 
