@@ -3,6 +3,7 @@ c=~/Documents/classes
 f23=~/Documents/classes/F23
 f24=~/Documents/classes/F24
 w25=~/Documents/classes/W25
+w26=~/Documents/classes/W26
 cs484=~/Documents/classes/F23/CS484
 cs488=~/Documents/classes/F24/CS488
 ura=/Users/shahanneda/Documents/classes/W25/URA
@@ -17,3 +18,4 @@ env=$dot/env_vars.txt
 downloads=~/Downloads
 docs=~/Documents
 enc=$book/encrypted
+
